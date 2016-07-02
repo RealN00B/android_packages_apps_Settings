@@ -150,6 +150,9 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
+    
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
 
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
