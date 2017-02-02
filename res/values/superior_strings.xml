@@ -280,5 +280,8 @@
     <string name="battery_stat_temp">Temperature</string>
     <string name="battery_stat_capacity">Capacity</string>
     <string name="battery_stat_cycle">Cycle</string>
+    
+    <!-- Running Services -->
+    <string name="background_processes_settings_title">Processi in background</string>
 
 </resources>
