@@ -55,4 +55,7 @@
 
     <!-- Does the device support color inversion -->
     <bool name="config_displayInversionAvailable">true</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">false</bool>
 </resources>
