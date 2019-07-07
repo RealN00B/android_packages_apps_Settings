@@ -183,6 +183,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.superior.lab.SuperiorLab;
+import com.superior.lab.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -354,7 +355,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             SuperiorLab.class.getName(),
             RunningServices.class.getName(),
-            SleepMode.class.getName()
+            SleepMode.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -400,6 +402,7 @@ public class SettingsGateway {
             Settings.SuperiorLabActivity.class.getName(),
             Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.SleepModeActivity.class.getName()
+            Settings.SleepModeActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
