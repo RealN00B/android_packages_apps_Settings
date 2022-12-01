@@ -81,6 +81,7 @@
             android:key="radio_info_settings"
             android:title="Radio info"
             android:order="6"
+            settings:controller="com.android.settings.deviceinfo.RadioInfoPreferenceController"
             android:summary="Tap to show info" >
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.android.phone"
