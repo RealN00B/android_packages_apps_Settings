@@ -55,7 +55,7 @@
         android:key="top_level_superior_lab"
         android:title="@string/superior_lab_dash_title"
         android:icon="@drawable/ic_settings_superior"
-        android:order="-130"
+        android:order="-170"
         android:fragment="com.superior.lab.SuperiorLab"/>
 
     <com.android.settings.widget.HomepagePreference

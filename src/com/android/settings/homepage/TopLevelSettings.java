@@ -219,14 +219,13 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 
             String key = preference.getKey();
             if (key.equals("top_level_network")
-            	|| key.equals("top_level_superior_lab")
+            	|| key.equals("top_level_display")
             	|| key.equals("top_level_apps")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")
                 || key.equals("top_level_system")){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_top);
             } else if (key.equals("top_level_battery")
-            	|| key.equals("top_level_display")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
             	|| key.equals("top_level_storage")
@@ -242,6 +241,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 gAppsExists = true;
             } else if (key.equals("top_level_accounts") && gAppsExists){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_middle);
+            } else if (key.equals("top_level_superior_lab")){
+                preference.setLayoutResource(R.layout.superioros_dashboard_preference_single);
             } else {
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_bottom);
             }
