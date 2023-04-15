@@ -64,6 +64,25 @@
                 android:id="@+id/homepage_app_bar_two_pane_view"
                 layout="@layout/settings_homepage_app_bar_two_pane_layout"
                 android:visibility="gone"/>
+                
+            <LinearLayout
+                android:id="@+id/common_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+    	        android:layout_marginBottom="10dp"
+    	        android:padding="4dp"
+    	        android:background="@drawable/bg_circle"
+        	android:gravity="center"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+            <Toolbar
+                    android:id="@+id/search_action_bar"
+                    android:layout_width="54dp"
+                    android:navigationIcon="@drawable/ic_homepage_search"
+                    android:layout_height="34dp"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
         </LinearLayout>
     </com.google.android.material.appbar.AppBarLayout>
 

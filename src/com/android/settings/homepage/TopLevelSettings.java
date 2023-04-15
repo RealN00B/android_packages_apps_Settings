@@ -232,13 +232,13 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             	|| key.equals("top_level_display")
             	|| key.equals("top_level_apps")
             	|| key.equals("top_level_accessibility")
-            	|| key.equals("top_level_emergency")
-                || key.equals("top_level_system")){
+            	|| key.equals("top_level_emergency")){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_top);
             } else if (key.equals("top_level_battery")
             	|| key.equals("top_level_security")
             	|| key.equals("top_level_privacy")
             	|| key.equals("top_level_storage")
+            	|| key.equals("top_level_system")
                 || key.equals("top_level_accounts")
                 || key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")
             	|| key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.home.TopLevelSettingsActivity")
@@ -253,6 +253,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_middle);
             } else if (key.equals("top_level_superior_lab")){
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_single);
+            } else if (key.equals("top_level_about_device")){
+                preference.setLayoutResource(R.layout.custom_dashboard_top);
             } else {
                 preference.setLayoutResource(R.layout.superioros_dashboard_preference_bottom);
             }
