@@ -87,6 +87,11 @@
         android:summary="@string/high_power_apps_summary">
         <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
     </Preference>
+    
+    <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="battery_full_light_enabled"
+        android:title="@string/battery_full_light_enabled"
+        android:defaultValue="true" />
 
     <SwitchPreference
         android:key="low_battery_light_enabled"
